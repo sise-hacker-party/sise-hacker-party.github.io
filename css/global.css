@@ -5,7 +5,7 @@
   .block img {
     width: 100%; }
   .block .section {
-    padding: 100px 400px; }
+    padding: 100px 300px; }
     .block .section .small {
       font-size: 28px; }
     .block .section .large {
@@ -14,7 +14,7 @@
       color: #fff; }
 
 .article {
-  padding: 100px 400px;
+  padding: 100px 300px;
   line-height: 32px;
   color: #364b5d; }
 
