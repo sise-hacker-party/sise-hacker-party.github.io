@@ -1,0 +1,38 @@
+.block{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  img{
+    width: 100%;
+  }
+
+  .section{
+    padding: 100px 400px;
+    .small{
+      font-size: 28px;
+    }
+
+    .large{
+      font-size: 36px;
+    }
+
+    p{
+      color: #fff;
+    }
+  }
+}
+
+.article{
+  padding: 100px 400px;
+  line-height: 32px;
+  color: #364b5d;
+}
+
+.description{
+  padding: 12px;
+}
+
+.footer{
+  color: #364b5d;
+  font-size: 12px;
+}
