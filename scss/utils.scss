@@ -1,3 +1,26 @@
+$mobile: "(max-width: 768px)";
+$desktop: "(min-width: 1024px)";
+
+@media #{$mobile}{
+  .container{
+    width: 100%;
+    img{
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
+    .title{
+      font-size: 1.4em;
+    }
+
+    p{
+      margin-left: 1em;
+      margin-right: 1em;
+      font-size: 1em;
+    }
+  }
+}
+
 body{
   -webkit-font-smoothing: antialiased;
   font-family: "PetalaPro","Helvetica Neue",Helvetica,"Arial","Source Han Sans CN","Hiragino Sans GB","Microsoft YaHei","Microsoft JhengHei",sans-serif;
@@ -5,6 +28,18 @@ body{
 
 .center{
   text-align: center;
+}
+
+.small{
+  font-size: .8em;
+}
+
+.medium{
+  font-size: 1.2em;
+}
+
+.large{
+  font-size: 1.4em;
 }
 
 .phase{

@@ -25,12 +25,35 @@
   color: #364b5d;
   font-size: 12px; }
 
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%; }
+    .container img {
+      width: 100%;
+      margin-bottom: 1em; }
+    .container .title {
+      font-size: 1.4em; }
+    .container p {
+      margin-left: 1em;
+      margin-right: 1em;
+      font-size: 1em; } }
+
 body {
   -webkit-font-smoothing: antialiased;
   font-family: "PetalaPro","Helvetica Neue",Helvetica,"Arial","Source Han Sans CN","Hiragino Sans GB","Microsoft YaHei","Microsoft JhengHei",sans-serif; }
 
 .center {
   text-align: center; }
+
+.small {
+  font-size: .8em; }
+
+.medium {
+  font-size: 1.2em; }
+
+.large {
+  font-size: 1.4em; }
 
 .phase {
   letter-spacing: 18px;
