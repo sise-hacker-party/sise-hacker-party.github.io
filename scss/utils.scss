@@ -21,6 +21,19 @@ $desktop: "(min-width: 1024px)";
   }
 }
 
+@media #{$desktop}{
+  .container{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 28px;
+    img{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 28px;
+    }
+  }
+}
+
 body{
   -webkit-font-smoothing: antialiased;
   font-family: "PetalaPro","Helvetica Neue",Helvetica,"Arial","Source Han Sans CN","Hiragino Sans GB","Microsoft YaHei","Microsoft JhengHei",sans-serif;
